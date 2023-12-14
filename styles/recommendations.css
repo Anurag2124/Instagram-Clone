@@ -1,0 +1,179 @@
+.user-account-info{
+  width: 280px;
+  height: 44px;
+  display: flex;
+  margin-top: 26px;
+  margin-left: 64px;
+}
+
+.user-pfp img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.name p, .insta-id p{
+  font-size: 14px;
+}
+
+.switch p{
+  font-size: 14px;
+}
+
+.name , .insta-id{
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.name-switch{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.name{
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.insta-id{
+  color: rgb(137, 137, 137);
+  margin-top: -5px;
+}
+
+.switch p{
+  font-size: 12.4px;
+  color: rgb(22, 162, 255);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.switch p:hover{
+  color: rgb(0, 0, 59);
+}
+
+.white-bg{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  border: solid rgb(234, 234, 234) 2px;
+}
+
+.user-pfp{
+  display: flex;
+  align-items: center;
+}
+
+.name-follow{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.follow p{
+  font-size: 12.4px;
+  color: rgb(22, 162, 255);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.follow p:hover{
+  color: rgb(0, 0, 59);
+}
+
+.status{
+  color: rgb(139, 139, 139);
+  margin-top: -2px;
+  padding-left: 10px;
+}
+
+.status p{
+  font-size: 12px;
+}
+
+.suggested-user-account-info, .title{
+  width: 280px;
+  display: flex;
+  margin-top: 0;
+  margin-left: 64px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.black-text{
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.black-text:hover{
+  color: rgb(144, 144, 144);
+}
+
+.gray-text{
+  color: rgb(126, 126, 126);
+  font-weight: 500;
+}
+
+.suggested-section{
+  margin-top: 24px;
+}
+
+.suggested-acc{
+  margin-bottom: 15px;
+}
+
+.links p, .copyright{
+  font-size: 12px;
+}
+
+.links p a:link{
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+}
+
+.links p a:hover{
+  text-decoration: underline;
+  color: rgb(199, 199, 199);
+}
+
+.links p a:active{
+  text-decoration: underline;
+  color: rgb(198, 198, 198);
+}
+
+.links p a:visited{
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+}
+
+.copyright{
+  color: rgb(199, 199, 199);
+}
+
+.extras{
+  margin-left: 64px;
+  margin-top: 50px;
+}
+
+.links{
+  margin-bottom: 24px;
+}
+
+.links p{
+  color: rgb(199, 199, 199);
+  margin-bottom: 4px;
+}
